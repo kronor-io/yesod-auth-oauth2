@@ -3,6 +3,7 @@
 module UnliftIO.Except
   () where
 
+import Control.Monad ((<=<))
 import Control.Monad.Except
 import UnliftIO
 
